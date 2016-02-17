@@ -1,0 +1,47 @@
+/*
+ * stylesheet.css
+ * styling for index.html for a Random Fire Game
+ * Made on 2016-02-16
+ * by GeOdin
+ */
+
+body {
+	text-align: center;
+	color: #FF1919;
+}
+
+header {
+ 	height: 20vh;
+ 	background-color: #990000;
+}
+
+#content {
+	height: 60vh;
+}
+
+img {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 60px;
+}
+
+#flame {
+	z-index: 1;
+}
+
+#lighter {
+	display: none;
+	z-index: 1;
+}
+
+#wood {
+	display: none;
+}
+
+footer {
+	top: 80vh;
+	height: 10vh;
+	background-color: #990000;
+}
