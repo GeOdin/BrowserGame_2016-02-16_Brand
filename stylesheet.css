@@ -3,6 +3,21 @@
  * styling for index.html for a Random Fire Game
  * Made on 2016-02-16
  * by GeOdin
+ * Last modified on 2016-02-18
+ */
+
+/*
+ * This CSS file contans styling for the following HTML-elements:
+ * body
+ * header
+ * class headerText
+ * div #content
+ * img
+ * div #flame
+ * div # firehose
+ * div #lighter
+ * div #wood
+ * footer
  */
 
 body {
@@ -11,8 +26,23 @@ body {
 }
 
 header {
+	top: 0vh;
+	left: 0%;
  	height: 20vh;
+ 	width: 100%;
+ 	position: fixed;
+ 	border-top-left-radius: 15px;
+ 	border-top-right-radius: 15px;
  	background-color: #990000;
+}
+
+.headerText {
+	position: absolute;
+	top: 35%;
+	height: 20%;
+	left: 30%;
+	width: 40%;
+	font-size: 2em;
 }
 
 #content {
@@ -20,7 +50,7 @@ header {
 }
 
 img {
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     height: 50px;
@@ -28,20 +58,36 @@ img {
 }
 
 #flame {
+	left: 40%;
+	top: 60vh;
+	z-index: 2;
+}
+
+#firehose {
+	left: 60%;
+	top: 40vh;
 	z-index: 1;
 }
 
 #lighter {
 	display: none;
-	z-index: 1;
+	z-index: 2;
 }
 
 #wood {
 	display: none;
+	top: 40vh;
+	left: 40%;
+	z-index: 1;
 }
 
 footer {
 	top: 80vh;
-	height: 10vh;
+	left: 0%;
+	height: 20vh;
+	width: 100%;
+	position: fixed;
+ 	border-bottom-left-radius: 15px;
+ 	border-bottom-right-radius: 15px;
 	background-color: #990000;
 }
