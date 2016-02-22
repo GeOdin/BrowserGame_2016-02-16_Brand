@@ -27,28 +27,28 @@ var main = function() {
         switch(parseInt(key.which,10)) {
 			// Left arrow key pressed
 			case 37:
-				div1.animate({left: "-=20px"}, "fast");
+				div1.animate({left: "-=20px"}, 1);
 				divs = collision(div1, div2);
 				div1 = divs.div1;
 				div2 = divs.div2;
 				break;
 			// Up Arrow Pressed
 			case 38:
-				div1.animate({top: "-=20px"}, "fast");
+				div1.animate({top: "-=20px"}, 1);
 				divs = collision(div1, div2);
 				div1 = divs.div1;
 				div2 = divs.div2;
 				break;
 			// Right Arrow Pressed
 			case 39:
-				div1.animate({left: "+=20px"}, "fast");
+				div1.animate({left: "+=20px"}, 1);
 				divs = collision(div1, div2);
 				div1 = divs.div1;
 				div2 = divs.div2;
 				break;
 			// Down Arrow Pressed
 			case 40:
-				div1.animate({top: "+=20px"}, "fast");
+				div1.animate({top: "+=20px"}, 1);
 				divs = collision(div1, div2);
 				div1 = divs.div1;
 				div2 = divs.div2;
